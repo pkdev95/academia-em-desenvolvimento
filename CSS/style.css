@@ -1,0 +1,222 @@
+/*Importar Fontes, fontes importadas do Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Righteous&family=Roboto&family=Sarala&display=swap');
+
+/*O * é utilizado para formatar todas tags do HTML, neste ponto anulo todas as pré configurações do navegador*/
+/*pedro*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container-box {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.chield {
+    width: 11%;
+    height: 138px ;
+    background-color: cadetblue;
+    border: 1px solid white;
+    flex-wrap: wrap;
+}
+.chield p {
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.chield p:hover {
+    justify-content: space-evenly;
+    transform: rotate(-5deg);
+}
+/* pedro*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    max-width: 100%;;
+    background-color: #000e0f;
+}
+
+.cabecalho{
+    max-width: 100%;
+}
+.container-cabecalho {
+    margin: 0px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: flex;
+    /*ação: fileira*/
+    flex-direction: row;
+    align-items: center;
+    /*itens são distribuídos de forma uniforme, com margens iguais à esquerda e à direita, acima e abaixo também*/
+    justify-content: space-around;
+    border-bottom: 1px solid #b9fbff;
+    background-color: #ffffff;
+}
+
+.cabecalho-logo {
+    width: 200px;
+    border: none;
+}
+
+.cabecalho-menu {
+    display: flex;
+    /*distância entre as âncoras, opções do menu*/
+    gap: 54px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    color: #000b0c;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cabecalho-menu-item:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+.container-banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner{
+    background: url(../imagens/banner.jpg) no-repeat;
+    background-position: right;
+    width: 1280px;
+    height: 674px;
+    display: flex;
+    padding-left: 5%;
+
+}
+
+.texto-esq{
+    color: #ffffff;
+    text-align: left;
+    font-family: 'roboto', sans-serif;
+    width: 40%;
+    margin-top: 13.5%;
+}
+
+.titulo-banner{
+    font-size: clamp(1.3em, 1.1em + 3vw, 2.8em);
+    font-weight: 1000;
+    margin-bottom: 6%;
+}
+
+.subtitulo-banner{
+    font-size: clamp(0.5em, 0.7em + 3vw, 1.0em);
+    font-weight: 400;
+    text-align: justify;
+}
+
+.bannerquem{
+    background: url(../imagens/mulhernaesteira.jpg) no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+
+
+/*
+.img1{
+    position: absolute;
+    top:53%;
+    right:10%;
+    left: 0.5%;
+    font-size: 35px;
+    color: white;
+}
+
+.img2{
+    position: absolute;
+    top:53%;
+    right:10%;
+    left: 34%;
+    font-size: 35px;
+    color: white;
+}
+
+.img3{
+    position: absolute;
+    top:53%;
+    right:10%;
+    left: 67%;
+    font-size: 35px;
+    color: white;
+}
+
+
+.lkp img{
+    width: 100%;
+    height: 100%;
+}
+
+.img4{
+    position: absolute;
+    top:135%;
+    right:10%;
+    left: 0.5%;
+    font-size: 35px;
+    color: white;
+}
+
+*/
+.rodape{
+    background-color: cadetblue;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width:100%;
+}
+
+.rodape-paragrafo{
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 5px;
+}
+
+
+.banner{
+    display: flex;
+    float: right;
+    background-color: black;
+
+}  
+
+
+
+.banner .lka{
+    width: 35%;
+    height:35%;
+
+}
+*{
+    box-sizing :border-box
+}
+
+.contato{ 
+    font-size: 27px;
+    display: flex;
+
+}
